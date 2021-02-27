@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-aula13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1>CEPs DO RIO DE JANEIRO</h1>
+
+    <section class="banner">
+        <img class='im-banner' src="img/banner.jpg" alt="foto-banner" width="1366" height="360">
+    </section>
+
+    <h1 class="Titulo" align='center'><em><i><font color="navy"<big></big>CEP API</big></font></i></em></h1>
+    
+
+    <form>
+        <p><u>DIGITE SEU CEP</u></p>
+        <label>CEP: <input type="text" id="cep"></label>
+        <label>LOGRADOURO: <input type="text" id="logradouro"></label>
+        <label>LOCALIDADE: <input type="text" id="localidade"></label> 
+        <label>UF: <input type="text" id="uf"></label>
+        <label>BAIRRO: <input type="text" id="bairro"></label> 
+        <label>COMPLEMENTO: <input type="text" id="complemento"></label>
+
+        <input type="button" onclick="buscarCep()" value="BUSCAR"> 
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
